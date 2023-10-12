@@ -140,3 +140,25 @@
 .about-text{
     margin: 15px;
 }
+.workout-section{
+    width: 600px;
+    height: 200px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.workout-title h1{
+    color: azure;
+}
+.chat{
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+}
