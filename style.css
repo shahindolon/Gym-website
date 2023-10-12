@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px;
+}
+.menu-items{
+    display: flex;
+}
+.menu-items li{
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+.menu-items li:hover{
+    color: aquamarine;
+    cursor: pointer;  
+}
+.company-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-container{
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.banner-left{
+    width: 50%;
+}
+.banner-right{
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+}
+.banner-des{
+    margin-left: 50px;
+}
+.banner-text{
+    color: coral;
+    font-size: 25px;
+}
+.title1{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px;
+}
+.text{
+    font-size: 23px;
+    margin: 10px;
+}
+.banner-btn{
+    padding: 15px 30px;
+    background-color: rgb(244, 6, 45);
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 10px;
+}
+.section2{
+    margin-top: 70px;
+    padding: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.card1{
+    width: 300px;
+    height: 200px;
+    border: 2px solid gray;
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 40px;
+    transition: 0.8ms;
+    margin-left: 20px;
+}
+.card1:hover{
+    margin-top: -20px;
+    transition: 0.8ms;
+    box-shadow: 8px 8px 16px green;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.gym-icon{
+    width: 65px;
+}
+.title2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 60px;
+    text-align: center;
+}
+.about-container{
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center;*/
+    background-color: black;
+    color: aliceblue;
+} 
+.about-left{
+    width: 600px;
+}
+.about-right{
+    width: 600px;
+}
+.workout-image{
+    display: flex;
+    margin: 50px 0px;
+}
+.workout-image img{
+    width: 350px;
+    height: 600px;
+    transform: skewY(-15deg);
+}
+.about-des{
+    padding: 30px;
+}
+.about-text{
+    margin: 15px;
+}
